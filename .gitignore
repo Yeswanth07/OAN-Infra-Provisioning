@@ -1,0 +1,5 @@
+.terraform/
+Env-path-file/
+*.tfstate
+*.tfstate.*
+*.pem

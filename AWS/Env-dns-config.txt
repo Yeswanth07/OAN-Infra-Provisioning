@@ -1,0 +1,14 @@
+ Service               Consul DNS                          Host Port 
+                                                      
+ Frontend            | frontend.service.consul           | 80        | http://frontend.service.consul:80                                
+ LLM                 | LLM.service.consul                | 8080      | http://LLM.service.consul:8080                                   
+ Mock                | mock.service.consul               | 8083      | http://mock.service.consul:8083                                  
+ Telemetry Service   | Telemetry-service.service.consul  | 8082      | http://Telemetry-service.service.consul:8082                     
+ Telemetry Process   | Telemetry-process.service.consul  | 8081      | http://Telemetry-process.service.consul:8081                        
+ Telemetry Dashboard | Telemetry-dashboard.service.consul| 3000      | http://Telemetry-dashboard.service.consul:3000                  
+ PostgreSQL          | postgresql.service.consul         | 5432      | postgresql://user:pass@postgresql.service.consul:5432/dbname     
+ Redis               | redis.service.consul              | 6379      | redis://redis.service.consul:6379                                
+ OpenSearch          | opensearch.service.consul         | 9200      | http://opensearch.service.consul:9200                            
+ Marqo               | marqo.service.consul              | 8882      | http://marqo.service.consul:8882                                 
+ Keycloak            | Key-cloak.service.consul          | 8080      | http://Key-cloak.service.consul:8080                             
+ Nominatim           | nominatim.service.consul          | 8084      | http://nominatim.service.consul:8084                             
